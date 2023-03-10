@@ -2,6 +2,8 @@
 
 Working through [Rust Atomics and Locks](https://marabos.nl/atomics/) by Mara Bos.
 
+![2023-03-10_14-39-28](https://user-images.githubusercontent.com/80144/224441677-987e5db3-bf28-4395-a230-18c9df3c8925.jpg)
+
 At the moment this is just a bunch of disenbodied code snippets that live 
 in the `examples/` folder, which is implicitly supported by Cargo.
 
