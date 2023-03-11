@@ -1,9 +1,12 @@
-use std::thread;
-use std::sync::Arc;
-
 // Reference counting with shadow naming clones
 // The clone of the Arc lives in a different scope. We can use the same
 // name in each thread.
+
+// Arc stands for “atomically reference counted.”
+
+use std::thread;
+use std::sync::Arc;
+
 fn main() {
     let a = Arc::new([1, 2, 3]);
 
