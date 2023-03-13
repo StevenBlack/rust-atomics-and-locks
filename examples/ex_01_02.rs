@@ -1,3 +1,4 @@
+// Spawn threads passing-in a closure
 use std::thread;
 
 fn main() {

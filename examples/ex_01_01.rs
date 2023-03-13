@@ -1,3 +1,4 @@
+// Spawn two threads and print their ids
 use std::thread;
 
 fn main() {
