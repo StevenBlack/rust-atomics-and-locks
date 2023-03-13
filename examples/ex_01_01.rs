@@ -1,4 +1,5 @@
-// Spawn two threads and print their ids
+// Spawn two threads and print their ids. The main thread will wait for the
+// other threads to finish before exiting.
 use std::thread;
 
 fn main() {

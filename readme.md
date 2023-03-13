@@ -26,17 +26,17 @@ $ cargo run --example ex_01_02
 etc...
 
 
-## The samples
+## The examples
 
-* [`ex_01_01`](./examples/ex_01_01.rs): Spawn two threads and print their ids.
-* [`ex_01_02`](./examples/ex_01_02.rs): Spawn threads passing-in a closure
-* [`ex_01_03`](./examples/ex_01_03.rs):
+* [`ex_01_01`](./examples/ex_01_01.rs): Spawn two threads. The main thread waits for the other threads to finish before exiting.
+* [`ex_01_02`](./examples/ex_01_02.rs): Spawn threads passing-in a closure which allows capture of values to move into the new thread.
+* [`ex_01_03`](./examples/ex_01_03.rs): *Ibid*.
 * [`ex_01_04`](./examples/ex_01_04.rs): A scoped thread.
-* [`ex_01_05`](./examples/ex_01_05.rs): Using `Arc`
-* [`ex_01_06`](./examples/ex_01_06.rs): Reference counting with shadow naming clones
+* [`ex_01_05`](./examples/ex_01_05.rs): Using `Arc`.
+* [`ex_01_06`](./examples/ex_01_06.rs): Reference counting with shadow naming clones.
 * [`ex_01_07`](./examples/ex_01_07.rs): Interior mutability with `Cell`.
-* [`ex_01_08`](./examples/ex_01_08.rs): `Mutex`
-* [`ex_01_09`](./examples/ex_01_09.rs): `Mutex` with a sleep while locked.
-* [`ex_01_10`](./examples/ex_01_10.rs): `Mutex` with a sleep while not locked.
+* [`ex_01_08`](./examples/ex_01_08.rs): using `Mutex`.
+* [`ex_01_09`](./examples/ex_01_09.rs): using `Mutex` with a sleep while locked.
+* [`ex_01_10`](./examples/ex_01_10.rs): using `Mutex` with a sleep while not locked.
 
 
